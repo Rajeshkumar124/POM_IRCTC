@@ -41,6 +41,11 @@ public class FaceBookSignUpPage extends GenericWrappers {
 		return this;
 	}
 	
+	public FaceBookSignUpPage clickOnGenderMale(String data) {
+		clickByXpath(prop.getProperty("FaceBookSignupPage.Gender.Xpath"));
+		return this;
+	}
+	
 	
 
 	
